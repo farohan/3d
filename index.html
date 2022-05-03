@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>3D World Simulation in JavaScript</title>
+</head>
+<body>
+
+    <form id="locations">
+       <select id="choices" onchange="changeSettings()">
+          <option id="mountains" selected="selected">Mountains</option>
+          <option id="city">City</option>
+          <option id="coast">Coast</option>
+       </select> 
+    </form>
+
+<!--
+    Guidelines / Formatting: 
+    nz - front - 0
+    pz - back - 1
+    nx - left - 2
+    px - right - 3
+    py - top - 4
+    ny - bottom - 5
+--> 
+
+    <section id="skybox">
+        <div id="box">
+            <div id="front"><img id="one" src="assets/set/0.png"></div>
+            <div id="back"><img id="two" src="assets/set/1.png"></div>
+            <div id="left"><img id="three" src="assets/set/2.png"></div>
+            <div id="right"><img id="four" src="assets/set/3.png"></div>
+            <div id="top"><img id="five" src="assets/set/4.png"></div>
+            <div id="bottom"><img id="six" src="assets/set/5.png"></div>
+        </div>
+    </section>
+
+    <script src="visual.js"></script>
+</body>
+</html>
