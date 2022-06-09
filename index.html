@@ -4,18 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/vectors/vr-headset-icon-3d-isometric-on-white-background-virtual-reality-vr-vector-id1208601275?k=20&m=1208601275&s=170667a&w=0&h=4OI7szYDQ7-7RUp3M916gWyiN1OAxoSbVdVDGbYRriI=">
     <link rel="stylesheet" href="styles.css">
-    <title>3D World Simulation in JavaScript</title>
+    <title>3D World Experience</title>
 </head>
 <body>
+
+    <section id="effects">
+        <audio id="music" src="sound/music.mp3" loop></audio>
+    </section>
 
     <form id="locations">
        <select id="choices" onchange="changeSettings()">
           <option id="mountains" selected="selected">Mountains</option>
-          <option id="city">City</option>
-          <option id="coast">Coast</option>
+          <option id="city">Room</option>
+          <option id="coast">Ballroom</option>
        </select> 
     </form>
+
+    <section id="shortcuts">
+        <h2 id="shortcuts-title">Shortcuts</h2>
+        <p id="tricks">
+            Space Bar = Music
+            <br>
+            G = Grayscale
+            <br>
+            O = Sepia
+            <br>
+            S = Saturate
+            <br>
+            R = Reset All
+        </p>
+    </section>
 
 <!--
     Guidelines / Formatting: 
@@ -29,12 +49,12 @@
 
     <section id="skybox">
         <div id="box">
-            <div id="front"><img id="one" src="assets/set/0.png"></div>
-            <div id="back"><img id="two" src="assets/set/1.png"></div>
-            <div id="left"><img id="three" src="assets/set/2.png"></div>
-            <div id="right"><img id="four" src="assets/set/3.png"></div>
-            <div id="top"><img id="five" src="assets/set/4.png"></div>
-            <div id="bottom"><img id="six" src="assets/set/5.png"></div>
+            <div id="front"><img class="box-img" id="one" src="assets/set/0.png"></div>
+            <div id="back"><img class="box-img" id="two" src="assets/set/1.png"></div>
+            <div id="left"><img class="box-img" id="three" src="assets/set/2.png"></div>
+            <div id="right"><img class="box-img" id="four" src="assets/set/3.png"></div>
+            <div id="top"><img class="box-img" id="five" src="assets/set/4.png"></div>
+            <div id="bottom"><img class="box-img" id="six" src="assets/set/5.png"></div>
         </div>
     </section>
 
