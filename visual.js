@@ -50,7 +50,7 @@ function changeSettings() {
             box.children[i].children[0].src = `assets/set3/${i}.png`;
         }
     }
-    else if (choices.value == 'City') {
+    else if (choices.value == 'Palace') {
         for (let i = 0; i <= 5; i++) {
             box.children[i].children[0].src = `assets/set4/${i}.png`;
         }
