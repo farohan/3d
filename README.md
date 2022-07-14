@@ -8,7 +8,7 @@ I used absolutely no libraries or frameworks for this project.
 
 Special Thanks to VCR Games (Youtube Channel) for teaching me how to create 3D worlds like these!
 
-Warning: Not intended for mobile devices.
+__Warning:__ Not intended for mobile devices.
 
 ## For Developers
 
