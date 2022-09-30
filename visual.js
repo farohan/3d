@@ -56,6 +56,7 @@ function changeSettings() {
         }
     }
     else if (choices.value == 'Space') {
+        document.body.style.backgroundColor = 'black';
         for (let i = 0; i <= 5; i++) {
             box.children[i].children[0].src = `assets/set5/${i}.png`;
         }
