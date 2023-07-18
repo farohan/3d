@@ -1,6 +1,6 @@
 # 3d
 
-Dive into 3 different 3-D Worlds with this site: https://farohan.github.io/3d/
+Dive into 5 different 3-D Worlds with this site: https://farohan.github.io/3d/
 
 __Languages Used:__ HTML, CSS, Plain JavaScript
 
