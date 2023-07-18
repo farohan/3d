@@ -6,8 +6,6 @@ __Languages Used:__ HTML, CSS, Plain JavaScript
 
 I used absolutely no libraries or frameworks for this project.
 
-Special Thanks to *VCR Games* (Youtube Channel) for teaching me how to create 3D worlds like these!
-
 __Warning:__ Not intended for mobile devices.
 
 ## For Developers
@@ -35,4 +33,4 @@ Rename the images to numbers: 0, 1, 2, etc.
 
 Then loop through the numbers, which will paste each image onto the screen.
 
-Seems difficult, but trust me, in the end, if everything goes as expected, you will get a smooth 3D experience.
+This may seem difficult, but trust me: In the end, if everything goes as expected, you *will* get a smooth 3D experience.
